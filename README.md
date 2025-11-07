@@ -1,1 +1,66 @@
 # lsirfei.github.io
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Personal CV — Yangyunfei Liu</title>
+  <style>
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;margin:0;background:#f7f8fb;color:#111}
+    .container{max-width:900px;margin:40px auto;padding:24px;background:#fff;border-radius:12px;box-shadow:0 6px 24px rgba(16,24,40,0.08)}
+    header{display:flex;gap:16px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:12px;background:#eee;display:inline-block;flex:0 0 96px}
+    h1{margin:0;font-size:24px}
+    p.role{margin:4px 0 12px;color:#555}
+    .section{margin-top:20px}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    a.button{display:inline-block;padding:8px 12px;border-radius:8px;text-decoration:none;border:1px solid #ddd}
+    footer{margin-top:20px;color:#666;font-size:13px}
+    @media (max-width:600px){.two-col{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar" aria-hidden="true"></div>
+      <div>
+        <h1>Yangyunfei Liu</h1>
+        <p class="role">Major — e.g. IT Student · Web Developer</p>
+        <p>
+          <a class="button" href="l18048616801@gmail.com">Contact me</a>
+        </p>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>Summary</h2>
+      <p>I am an undergraduate student majoring in IT at the Payap University, with a focus on software development and emerging technologies such as virtual reality and artificial intelligence.</p>
+    </section>
+
+    <section class="section two-col">
+      <div>
+        <h3>Education</h3>
+        <p><strong>Payap University</strong><br/>Bachelor of IT — Expected 2025</p>
+
+        <h3>Skills</h3>
+        <p>Python · JavaScript · Git · Flutter · React</p>
+      </div>
+
+      <div>
+        <h3>Projects</h3>
+        <p><strong>Project A</strong><br/>The Holy Bible Foundation - IT Intern 2025/6 - 2025/8
+•	Assist in database management and website system maintenance to ensure smooth daily operations.
+</p>
+
+        <h3>Experience</h3>
+        <p><strong>Intern</strong><br/>The Holy Bible Foundation - IT Intern</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>GitHub: <a href="https://github.com/lsirfei" target="_blank">github.com/lsirfei</a> · LinkedIn:https://lsirfei.github.io
+ · Email: l18048616801@gmail.com</p>
+    </footer>
+  </div>
+</body>
+</html>
